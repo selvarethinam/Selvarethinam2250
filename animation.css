@@ -1,0 +1,12 @@
+div{
+    width:100px;
+    height:100px;
+    background-image: url(./bg.jpg);background-repeat: no-repeat;background-size: cover;
+    transition: width 5s,height 5s,transform 5s;
+}
+div:hover{
+    transform: rotate(360deg);
+    background-image: url(./bg.jpg);background-repeat: no-repeat;background-size: cover;
+    width:500px;
+    height:500px;
+}
